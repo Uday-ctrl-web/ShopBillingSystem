@@ -1,0 +1,115 @@
+Shop Billing System (Python + SQLite)
+About the Project
+
+This project is a command-line based Shop Billing System built using Python and SQLite.
+The main goal of this project is to understand how Python works with databases and how a real shop billing flow can be implemented logically.
+
+The system allows managing products, creating bills for customers, reducing stock automatically, and storing sales data permanently.
+
+This project was built step by step while learning Python and SQL.
+
+What this project can do
+Product Management
+
+Add new products
+
+View all products
+
+Update product details
+
+Delete products
+
+Billing
+
+Add customer details
+
+Create a bill with multiple products
+
+Check available stock before billing
+
+Automatically calculate total amount
+
+Reduce stock after billing
+
+Save sales information in the database
+
+Technologies Used
+
+Python 3
+
+SQLite (using sqlite3 module)
+
+VS Code
+
+Terminal
+
+No external libraries or frameworks are used.
+
+Project Folder Structure
+ShopBillingSystem/
+├── main.py        # Main application file
+├── database.py    # Database related functions
+├── shop.db        # SQLite database file
+└── README.md
+
+How to Run the Project
+
+Open terminal in the project folder
+
+Run the following command:
+
+python3 main.py
+
+
+Use the menu options shown on the screen
+
+Menu Options
+1. Add Product
+2. View Products
+3. Update Product
+4. Delete Product
+5. Create Bill
+6. Exit
+
+Database Tables Used
+
+products – stores product details
+
+customers – stores customer information
+
+sales – stores bill details
+
+sale_items – stores items included in each bill
+
+This structure helps maintain proper relationships between products, customers, and sales.
+
+What I Learned from this Project
+
+How CRUD operations work in real applications
+
+How to connect Python with SQLite
+
+How to design a simple database schema
+
+How billing systems manage stock
+
+How to structure a Python project properly
+
+How to debug real runtime and logic errors
+
+Future Improvements
+
+Add sales history and reports
+
+Improve input validation
+
+Add error handling using try-except
+
+Convert the project into a GUI or web application
+
+Author
+
+Uday
+Python + SQL Learning Project
+
+If
